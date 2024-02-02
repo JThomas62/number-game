@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+.title {
+  align-self: flex-start;
+  margin-left: 1rem;
+  margin-top: .5rem;
+  color: white;
+}
+
+.question {
+  margin-top: 10rem;
+  font-size: 2rem;
+  width: 40%;
+  text-align: center;
+  color: white;
+}
+
+.form {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.resultParas {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.lastResult {
+  margin-top: .5rem;
+  color: white;
+}
+
+button {
+  margin-top: 1rem;
+}
